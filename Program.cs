@@ -10,6 +10,8 @@ namespace FindMax
             MaxNumbers maxNumbers = new MaxNumbers();
             maxNumbers.MaxInt();
             maxNumbers.Show();
+            double doubleoutput = MaxNumbers.MaximumFloatNumber(11.7, 26.47, 70.56);
+            Console.WriteLine(doubleoutput);
         }
     }
 }
